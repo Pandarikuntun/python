@@ -18,14 +18,14 @@ def flames():
 result=flames()
 
 if result == "F":
-    print("Frinds")
+    print("bothe are good Frinds")
 elif result == "L":
-    print("Love")
+    print("your relationship is Love")
 elif result == "A":
-    print("Affection")
+    print("you have only Affection")
 elif result == "M":
-    print("Marriage")
+    print("your relationship goes to Marriage")
 elif result == "E":
-    print("Enemy")
+    print("you both are Enemys")
 else:
-    print("Sister")
+    print("your relationship Sister")
