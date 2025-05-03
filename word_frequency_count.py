@@ -5,9 +5,9 @@ def word_frequency_counter(text):
     for punct in string.punctuation:
         text = text.replace(punct,"")
         words = text.split()
-        frequency={}
+        frequency={} 
         for word in words:
             frequency[word] = frequency.get(word,0) + 1
-    print(frequency)
+    print(frequency,"end=")
 text=input("enter the sentence or paragraph:")
 word_frequency_counter(text)
